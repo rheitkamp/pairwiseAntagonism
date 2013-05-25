@@ -222,7 +222,7 @@ def identifyLoops(graph):
     
     return ((identifyUnaryAntagonism(graph)), (identifyBinaryAntagonism(graph)), (identifyTernaryAntagonism(graph)), (identifyQuaternaryAntagonism(graph)))
      
-if __name__ == '__main__': #NOT THOROUGHLY TESTED
+if __name__ == '__main__': #NOT THOROUGHLY TESTED, should be implemented as a wrapper function
     inputFile = 'boolAntagonismAcinetobacter.txt'
     killedDict = loadPairwiseAntagonism(inputFile)
     killerDict = getKillerDictionary(killedDict)
