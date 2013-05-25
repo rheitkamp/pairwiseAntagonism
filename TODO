@@ -1,0 +1,3 @@
+* Merge R files for acinetobacter and vibrio into one file
+* Write wrapper function for python file
+* Sort through image files and delete the ones that weren't used for the poster
