@@ -1,3 +1,4 @@
+* Access the working directory from the file running
 * Merge R files for acinetobacter and vibrio into one file
 	*Input should be formatted as in files:
 		-distanceAcinetobacter.txt
@@ -22,3 +23,4 @@
 * Save result to CD and store
 
 * Ability to color nodes based on metadata
+* Put loops in a graph
