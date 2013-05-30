@@ -1,3 +1,21 @@
 * Merge R files for acinetobacter and vibrio into one file
+	*Input should be formatted as in files:
+		-distanceAcinetobacter.txt
+		-interactionsAcinetobacter.txt
+	*Output should be:
+		-full figure, Acinetobacter
+		-reflexive loop
+		-mutual loop
+		-RPS loop
+		-4-way loop
+		-full figure, Vibrio
 * Write wrapper function for python file
+	*Input should be formatted as in files:
+		-boolAntagonismAcinetobacter.txt
+	*Output should be:
+		-csv files of susceptibility and killing distribs
+		-text file distance matrix
+		-text file interactions matrix
+		-list of loops
+		-graph		
 * Sort through image files and delete the ones that weren't used for the poster
